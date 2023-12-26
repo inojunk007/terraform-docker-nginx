@@ -4,6 +4,6 @@ resource "docker_container" "nginx" {
   image = "docker.io/nginx:latest"
   ports {
     internal = 80
-    external = 443
+    external = 80
   } 
 }
